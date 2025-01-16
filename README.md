@@ -198,3 +198,22 @@ Read the transformed data from `staging/transformed`, and save it to the sqlite 
 As mentioned previously, your code should be unit tested.
 
 Hints: Use pytest for your unit tests as well as mocks for external services.
+
+## Git Best Practices
+
+- **Write Meaningful Commit Messages**: Each commit message should be clear and concise, describing the changes made. Use the format:
+  ```
+  <type>: <short description>
+  ```
+  Examples:  
+  - `feat: add extraction task for ETL pipeline`  
+  - `fix: resolve bug in transform job schema`  
+  - `refactor: split ETL script into modular tasks`
+
+- **Commit Small, Logical Changes**: Avoid bundling unrelated changes in one commit.
+
+- **Review Before Committing**: Ensure clean and tested code before committing.
+- **...
+
+[This guide](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) provides detailed insights into writing better commit messages, branching strategies, and overall Git workflows.
+
