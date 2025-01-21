@@ -1,2 +1,16 @@
 --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-2.8.0/constraints-3.8.txt"
 apache-airflow==2.8.0
+
+# Bibliothèques essentielles
+pandas
+numpy
+python-dateutil
+pytz
+tzdata
+
+# Tests
+pytest
+pytest-mock
+
+# JSON validation 
+jsonschema
